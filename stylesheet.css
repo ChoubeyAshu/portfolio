@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(4, 4, 40);
+  color: white;
+  font-family: "DM Serif Display", serif;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(7, 7, 82);
+
+}
+
+header {
+  position: sticky;
+  top: 3px;
+}
+
+.left {
+  font-size: 2rem;
+}
+
+div ul {
+  display: flex;
+  list-style: none;
+}
+
+div ul li a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: white;
+  padding: 17px;
+  margin: 12px;
+}
+
+div ul li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(162, 159, 159);
+}
+
+.first-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 137px 12px;
+}
+
+.first-sec>div {
+  width: 35%;
+}
+
+.left-sec {
+  font-size: 2.5rem;
+}
+
+.left-sec div {
+  justify-content: center;
+  align-items: center;
+}
+
+.right-sec {
+  margin: 30px;
+}
+
+.right-sec img {
+  margin: 33px;
+  width: 80%;
+}
+
+hr {
+  width: 90%;
+  margin: 0px auto;
+  color: rgb(72, 50, 198);
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 12px;
+  font-size: 1.5rem;
+}
+
+.container>div {
+  width: 35%;
+}
+
+.left-sec img {
+  border: 10px solid;
+  height: 392px;
+  width: 375px;
+  border-radius: 60%;
+  margin: 17px 29px;
+}
+
+.project {
+  width: 233px;
+  height: 444px;
+  border: 2px solid rgb(117, 108, 247);
+  border-radius: 11px;
+}
+
+div.headings {
+  text-decoration: underline;
+  margin: 38px 137px;
+  font-size: 3rem;
+}
+
+.btn {
+  margin: 10% auto;
+  display: block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #2c1ec5;
+  color: white;
+  padding: 13px;
+  border: 2px solid #fff;
+
+
+}
+
+.btn:hover {
+  background: #1a1177;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 42px;
+  border: 4px solid #aeb7f0;
+  margin: 22px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.icon a img {
+  transition: all 0.3s linear;
+}
+
+.icon a img:hover {
+  transform: scale(1.2);
+}
+
+.name {
+  color: rgb(185, 113, 243);
+}
+
+.gray {
+  margin: 4px 84px;
+  font-size: smaller;
+  color: gray;
+}
+
+/* Footer Styles */
+
+.footer {
+  background: #0c1852;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer ul {
+  display: block;
+  list-style: disc;
+}
+
+footer ul li {
+  padding: 10px;
+  margin: 10px;
+}
